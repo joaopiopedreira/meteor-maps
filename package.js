@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'dispatch:maps',
+  name: 'joaopiopedreira:maps',
   version: '1.0.0',
   summary: 'General map package for both browser and cordova'
 });
 
 Cordova.depends({
   'plugin.google.maps':
-  'https://github.com/DispatchMe/cordova-plugin-googlemaps.git#c407039ad9334ba122fedd16ea6d0c254cdf9a25'
+  'https://github.com/joaopiopedreira/cordova-plugin-googlemaps.git#ae2f01721983bf649b827601c4e930c82ae0951e'
 });
 
 Package.onUse(function(api) {
